@@ -8,10 +8,10 @@ import 'package:permission_handler/permission_handler.dart';
 
 class ScanController extends GetxController {
   @override
-  void onInit() {
+  Future<void> onInit() async {
     super.onInit();
-    initCamera();
-    initTFLite();
+    await initCamera();
+    await initTFLite();
     widgetList.add(CameraPreview(cameraController));
   }
 
