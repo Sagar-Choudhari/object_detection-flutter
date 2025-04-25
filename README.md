@@ -1,4 +1,4 @@
-# ob_detect
+# object_detection-flutter
 
 A new Flutter project.
 
